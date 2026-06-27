@@ -9,11 +9,12 @@ const Navbar = () => {
                         <h1>Nikhil Prasad</h1>
                     </div>
                     <div className='flex justify-center items-center'>
-                        <ul className='flex flex-row text-2xl gap-15'>
-                            <li><a href="#home"></a>Home</li>
-                            <li><a href="#projects"></a>Projects</li>
-                            <li><a href="#about"></a>About</li>
-                            <li><a href="#contacts"></a>Contacts</li>
+                        <ul className='flex flex-row text-2xl gap-15 '>
+                            <li className='hover:text-[#dacdbc] transition-all duration-200 cursor-pointer'><a href="#home"></a>Home</li>
+                            <li className='hover:text-[#dacdbc] transition-all duration-200 cursor-pointer'><a href="#about"></a>About</li>
+                            <li className='hover:text-[#dacdbc] transition-all duration-200 cursor-pointer'><a href="#projects"></a>Projects</li>
+                            <li className='hover:text-[#dacdbc] transition-all duration-200 cursor-pointer'><a href="#skills"></a>Skills</li>
+                            <li className='hover:text-[#dacdbc] transition-all duration-200 cursor-pointer'><a href="#contacts"></a>Contacts</li>
                         </ul>
                     </div>
                 </div>
