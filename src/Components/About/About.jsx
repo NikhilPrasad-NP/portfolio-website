@@ -32,7 +32,7 @@ const About = () => {
           </div>
           <p className='text-3xl pb-4'>10+ Projects Completed</p>
           <div className='text-2xl'><button className='bg-[#FFF5E9] text-black p-3 rounded-lg hover:bg-[#dacdbc]
-transition-all duration-200'>My Resume</button></div>
+          transition-all duration-200'>My Resume</button></div>
         </div>
       </div>
     </section>
