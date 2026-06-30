@@ -3,7 +3,7 @@ import React from 'react'
 const ProjectCards = ({ title, tech, description, image, github, live, index }) => {
   return (
     <div className={`flex ${index % 2 !== 0 ? "flex-row-reverse" : "flex-row"
-      } justify-between text-white gap-6 pt-10 pb-20`}>
+      } justify-between items-center text-white gap-6 pt-10 pb-10`}>
       <div className='text-white w-[50%] flex flex-col gap-5'>
         <h1 className='font-semibold text-4xl pb-8'>{title}</h1>
         <div className='flex gap-2'>
