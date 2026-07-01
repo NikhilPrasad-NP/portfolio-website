@@ -1,5 +1,5 @@
 import React from 'react'
-
+import resume from "../../assets/resume.pdf/NIKHIL_PRASAD_Resume.pdf";
 const Hero = () => {
   return (
     <section className='flex justify-center'>
@@ -11,8 +11,11 @@ const Hero = () => {
           <div className='flex gap-5 text-3xl mt-8'>
             <button className='bg-[#FFF5E9] text-[#644330] p-3 rounded-lg hover:bg-[#dacdbc]
 transition-all duration-200'>Projects</button>
-            <button className='border-[#FFF5E9] border-2 p-3 rounded-lg hover:border-[#dacdbc]
+            <a href={resume} target="_blank"
+              rel="noopener noreferrer">
+              <button className='border-[#FFF5E9] border-2 p-3 rounded-lg hover:border-[#dacdbc]
 transition-all duration-200'>My Resume</button>
+            </a>
           </div>
         </div>
         <div className='w-110'><img className='w-full rounded-3xl object-cover' src="https://i.pinimg.com/736x/18/9d/64/189d649b4168907d058586e458e43ea6.jpg" alt="Image" /></div>
