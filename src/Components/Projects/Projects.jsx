@@ -5,7 +5,7 @@ import { projects } from '../../Data/projects'
 const Projects = () => {
 
   return (
-    <section className='flex justify-center'>
+    <section className='flex justify-center scroll-mt-24' id='projects'>
       <div className='w-[80%] pt-10 pb-10 mb-10 mt-10'>
         <div className='text-white text-center text-6xl font-semibold pb-10 mb-10'><h2>Projects</h2></div>
         <div>

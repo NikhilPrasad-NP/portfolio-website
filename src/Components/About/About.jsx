@@ -1,10 +1,10 @@
 import React from 'react'
-
+import resume from "../../assets/resume.pdf/NIKHIL_PRASAD_Resume.pdf";
 
 const About = () => {
 
   return (
-    <section className='flex justify-center'>
+    <section className='flex justify-center scroll-mt-24' id='about'>
       <div className='flex justify-between w-[80%] pt-10 pb-10 mb-10 mt-10'>
         <div className='w-[30%]'><img className='w-full rounded-3xl object-cover' src="https://i.pinimg.com/736x/18/9d/64/189d649b4168907d058586e458e43ea6.jpg" alt="" /></div>
         <div className='text-white w-[50%] flex flex-col gap-5'>
@@ -31,8 +31,10 @@ const About = () => {
             <span className='text-xl text-[#fff5e9ac]'>Becoming a Full Stack Developer</span>
           </div>
           <p className='text-3xl pb-4'>10+ Projects Completed</p>
-          <div className='text-2xl'><button className='bg-[#FFF5E9] text-black p-3 rounded-lg hover:bg-[#dacdbc]
+          <a href={resume} target='_blank' rel="noopener noreferrer">
+            <div className='text-2xl'><button className='bg-[#FFF5E9] text-black p-3 rounded-lg hover:bg-[#dacdbc]
           transition-all duration-200'>My Resume</button></div>
+          </a>
         </div>
       </div>
     </section>

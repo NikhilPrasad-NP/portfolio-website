@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contacts = () => {
   return (
-    <section className='flex justify-center'>
+    <section className='flex justify-center scroll-mt-24' id='contact'>
       <div className='w-[80%] pt-10 pb-10 mb-10 mt-10'>
         <div className='flex flex-row justify-between items-center text-white gap-6 pt-10 pb-10'>
           <div className='text-white w-[50%] flex flex-col gap-8'>

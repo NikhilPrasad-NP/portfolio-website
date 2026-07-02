@@ -5,7 +5,7 @@ import SkillsCard from './SkillsCard'
 const Skills = () => {
 
   return (
-    <section className='flex justify-center'>
+    <section className='flex justify-center scroll-mt-24' id='skills'>
       <div className='w-[80%] pt-10 pb-10 mb-10 mt-10'>
         <div className='text-white text-center text-6xl font-semibold pb-10 mb-5'><h2>My Skills</h2></div>
         <div className='text-2xl leading-relaxed text-[#fff5e9ac] text-center pb-10 mb-10'><p >I enjoy building modern, responsive and user-friendly web
